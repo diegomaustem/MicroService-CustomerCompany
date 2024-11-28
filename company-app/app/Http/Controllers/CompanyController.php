@@ -70,7 +70,6 @@ class CompanyController extends Controller
                 'situation' => 'Active'
             ]
         ];
-
         return json_encode($company);   
     }
 }
